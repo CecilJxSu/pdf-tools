@@ -1,3 +1,5 @@
+# 简介
+给PDF文件添加书签，书签使用toml配置文件。
 # 安装依赖
 ## 安装 Python3
 ## 安装依赖
@@ -7,7 +9,7 @@ pip3 install -r requirements.txt
 
 # 使用命令
 ```bash
-./pdf-add-bookmarks.py <pdf_file> <bookmarks_config> <output_file>
+./add-bookmarks.py <pdf_file> <bookmarks_config> <output_file>
 ```
 
 + pdf_file：原 pdf 文件路径

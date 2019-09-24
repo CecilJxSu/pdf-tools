@@ -29,6 +29,6 @@ def main():
 
 if __name__ == '__main__':
     if len(sys.argv) != 4:
-        print('Usage: pdf-add-bookmars.py <pdf_file> <bookmarks_config_file> <out_file>')
+        print('Usage: add-bookmars.py <pdf_file> <bookmarks_config_file> <out_file>')
         exit(1)
     main()
